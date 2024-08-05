@@ -13,7 +13,10 @@ const list = Object.keys(data);
 export default function About() {
   const [active, setActive] = useState("");
   return (
-    <section className="py-8 sm:py-16 mb-24 sm:mx-24 md:mx-18 gap-x-20 grid grid-cols-1 sm:grid-cols-2 mx-12">
+    <section
+      id="about"
+      className="py-8 sm:py-16 mb-24 sm:mx-24 md:mx-18 gap-x-20 grid grid-cols-1 sm:grid-cols-2 mx-12"
+    >
       <div className="col-span-1">
         <Image src={"/image.webp"} width={500} height={500}></Image>
       </div>

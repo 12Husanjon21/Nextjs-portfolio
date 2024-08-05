@@ -3,18 +3,18 @@ import Image from "next/image";
 
 export default function ProjectsSection() {
   return (
-    <div>
+    <div id="projects">
       <h1 className="text-center text-4xl font-bold mt-4 mb-8 text-gray-50 md:mb-12">
         My Projects
       </h1>
       <div className="flex justify-center gap-2 py-6 text-white items-center">
-        <button className="border-2 px-6 py-3 cursor-pointer rounded-full text-xl border-gray-600 hover:border-gray-50 active:border-purple-500">
+        <button className="border-2 px-6 py-3 cursor-pointer rounded-full text-xl border-gray-600 hover:border-gray-50 active:border-green-500">
           All
         </button>
-        <button className="border-2 px-6 py-3 cursor-pointer rounded-full text-xl border-gray-600 hover:border-gray-50 active:border-purple-500">
+        <button className="border-2 px-6 py-3 cursor-pointer rounded-full text-xl border-gray-600 hover:border-gray-50 active:border-green-500">
           Web
         </button>
-        <button className="border-2 px-6 py-3 cursor-pointer rounded-full text-xl border-gray-600 hover:border-gray-50 active:border-purple-500">
+        <button className="border-2 px-6 py-3 cursor-pointer rounded-full text-xl border-gray-600 hover:border-gray-50 active:border-green-500">
           Mobile
         </button>
       </div>
