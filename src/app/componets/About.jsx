@@ -18,7 +18,12 @@ export default function About() {
       className="pt-8 sm:pt-28 mb-24 sm:mx-24 md:mx-18 gap-x-20 grid grid-cols-1 md:grid-cols-2 mx-12"
     >
       <div className="col-span-1">
-        <Image src={"/computer.jpg"} width={500} height={500}></Image>
+        <Image
+          src={"/computer.jpg"}
+          width={500}
+          height={500}
+          alt="Computer"
+        ></Image>
       </div>
       <div className=" md:mt-0 text-left flex flex-col h-full">
         <h1 className="text-4xl font-medium mb-10">About Me</h1>
