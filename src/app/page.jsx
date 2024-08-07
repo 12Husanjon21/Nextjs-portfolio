@@ -5,11 +5,12 @@ import About from "@/app/componets/About";
 import Navbar from "./componets/NavBar";
 import HeroSection from "./componets/HeroSection";
 import ProjectsSection from "./componets/ProjectsSection";
+import Footer from "./componets/Footer";
 
 export default function Home() {
   return (
     <>
-      <main className="flex flex-col min-h-screen bg-[#121212]">
+      <main className="flex flex-col min-h-screen bg-inherit ">
         <Navbar />
         <section className="container mt-24 mx-auto px-12 py-4">
           <HeroSection />
@@ -21,6 +22,7 @@ export default function Home() {
 
         <ProjectsSection />
       </main>
+      <Footer />
     </>
   );
 }

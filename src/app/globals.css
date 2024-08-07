@@ -18,11 +18,17 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: black;
+  background: #11161d;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .wrapping {
+    flex-wrap: wrap;
   }
 }

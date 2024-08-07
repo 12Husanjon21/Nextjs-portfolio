@@ -15,12 +15,12 @@ export default function About() {
   return (
     <section
       id="about"
-      className="py-8 sm:py-16 mb-24 sm:mx-24 md:mx-18 gap-x-20 grid grid-cols-1 sm:grid-cols-2 mx-12"
+      className="pt-8 sm:pt-28 mb-24 sm:mx-24 md:mx-18 gap-x-20 grid grid-cols-1 md:grid-cols-2 mx-12"
     >
       <div className="col-span-1">
-        <Image src={"/image.webp"} width={500} height={500}></Image>
+        <Image src={"/computer.jpg"} width={500} height={500}></Image>
       </div>
-      <div className=" mt-4 md:mt-0 text-left flex flex-col h-full">
+      <div className=" md:mt-0 text-left flex flex-col h-full">
         <h1 className="text-4xl font-medium mb-10">About Me</h1>
         <p className="mb-10">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
