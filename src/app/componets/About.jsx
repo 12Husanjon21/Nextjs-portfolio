@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const data = {
   Skills: ["HTML", "Css", "js", "Git", "Github"],
-  Education: ["University of Harwards"],
-  Certificates: ["IELTS", "c2", "cefr"],
+  Education: ["Najot ta'lim", "Secondary school"],
+  Certificates: ["Najot ta'lim Frontend Developer"],
 };
 
 const list = Object.keys(data);
@@ -42,11 +42,18 @@ export default function About() {
             <li key={index}>
               <button
                 className={`text-gray-400 font-bold ${
-                  active === l ? "underline mb-6 text-gray-50" : ""
+                  active === l ? " mb-6 text-gray-50" : ""
                 }`}
                 onClick={() => setActive(l)}
               >
-                {l}
+                <p>{l}</p>
+                <div
+                  className={` ${
+                    active === l
+                      ? "h-1 w-full bg-gradient-to-br rounded-md from-green-600 to-cyan-600"
+                      : ""
+                  }`}
+                ></div>
               </button>
             </li>
           ))}
